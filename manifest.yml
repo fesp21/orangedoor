@@ -1,0 +1,17 @@
+--- 
+applications: 
+  .: 
+    mem: 128M
+    infra: hp
+    url: orangedoor.biz
+    services: 
+      mongo: 
+        type: mongodb
+    name: orangedoor
+    instances: 2
+    framework: 
+      info: 
+        mem: 64M
+        exec: 
+        description: Node.js Application
+      name: node
